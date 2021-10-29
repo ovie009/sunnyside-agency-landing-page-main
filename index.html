@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="main.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <section class="container">
+    
+    <div class="row-1">
+      <nav class="navbar">
+        <a href="#" class="navbar-brand">sunnyside</a>
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Services</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+          <li class="navbar-item active-link">
+            <a href="#" class="navbar-link">CONTACT</a>
+          </li>
+        </ul>
+        <img src="images/icon-hamburger.svg" alt="list icon" class="dropdown-toggler" onclick="collapse()">
+      </nav>
+      <div class="dropdown-collapse">
+        <div class="top-container">
+          <div class="half-blue-top"></div>
+        </div>
+        <ul class="dropdown-list">
+          <li class="dropdown-item">
+            <a href="#" class="dropdown-link">About</a>
+          </li>
+          <li class="dropdown-item">
+            <a href="#" class="dropdown-link">Services</a>
+          </li>
+          <li class="dropdown-item">
+            <a href="#" class="dropdown-link">Projects</a>
+          </li>
+          <li class="dropdown-item">
+            <a href="#" class="dropdown-link active">CONTACT</a>
+          </li>
+        </ul>
+      </div>
+      <div class="floating-div">
+        <h1>
+          We are creatives
+        </h1>
+        <img src="images/icon-arrow-down.svg" alt="">
+      </div>
+    </div>
+    
+    <div class="row-2">
+
+    </div>
+    
+    <div class="row-3">
+      <h5 class="row-headers">
+        Transform your brand
+      </h5>
+      <p class="row-text">
+        We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>      
+      <div class="link-wrapper">
+        <a href="#" class="row-link">
+          Learn more
+        </a>
+        <div class="link-underline"></div>
+      </div>
+    </div>
+    
+    <div class="row-4">
+
+    </div>
+    
+    <div class="row-5">
+      <h5 class="row-headers">
+        Stand out to the right audience
+      </h5>
+      <p class="row-text">
+        Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+      </p>      
+      <div class="link-wrapper">
+        <a href="#" class="row-link">
+          Learn more
+        </a>
+        <div class="link-underline"></div>
+      </div>
+    </div>
+    
+    <div class="row-6">
+      <h5 class="row-headers">
+        Graphic design
+      </h5>
+      <p class="row-text">
+        Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+      </p>      
+    </div>
+
+    <div class="row-7">
+      <h5 class="row-headers">
+        Photography
+      </h5>
+      <p class="row-text">
+        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      </p>      
+    </div>
+    
+    <div class="row-8">
+      <h4 class="testimonial-header">
+        Client testimonials
+      </h4>
+      <div class="testimonial-wrapper">
+        <div class="testimonial">
+          <img class="testimonial-img" src="images/image-emily.jpg" alt="Emily R.">
+          <p class="testimonial-text">
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+          <p class="authur">
+            Emily R.
+          </p>
+          <small class="authur-position">
+            Marketing Director
+          </small>
+        </div>
+        <div class="testimonial">
+          <img class="testimonial-img" src="images/image-thomas.jpg" alt="Thomas S.">
+          <p class="testimonial-text">
+            Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <p class="authur">
+            Thomas S.
+          </p>
+          <small class="authur-position">
+            Chief Operating Officer
+          </small>
+        </div>
+        <div class="testimonial">
+          <img class="testimonial-img" src="images/image-jennie.jpg" alt="Jennie F.">
+          <p class="testimonial-text">
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+          <p class="authur">
+            Jennie F.
+          </p>
+          <small class="authur-position">
+            Business Owner
+          </small>
+        </div>
+      </div>
+    </div>
+
+    <div class="row-9">
+      <div class="col-1"></div>
+      <div class="col-2"></div>
+      <div class="col-3"></div>
+      <div class="col-4"></div>
+    </div>
+  </section>
+  <footer id="footer">
+    <h2 class="footer-heading">sunnyside</h2>
+    <ul class="group">
+      <li class="group-item">
+        <a href="#" class="group-link">
+          About
+        </a>
+      </li>
+      <li class="group-item">
+        <a href="#" class="group-link">
+          Services
+        </a>
+      </li>
+      <li class="group-item">
+        <a href="#" class="group-link">
+          Projects
+        </a>
+      </li>
+    </ul>
+    <ul class="group" id="link-group">
+      <li class="group-item">
+        <a href="#" class="group-link">
+          <img src="images/icon-facebook.svg" alt="facebook-icon" class="group-link-img">
+        </a>
+      </li>
+      <li class="group-item">
+        <a href="#" class="group-link">
+          <img src="images/icon-instagram.svg" alt="instagram-icon" class="group-link-img">
+        </a>
+      </li>
+      <li class="group-item">
+        <a href="#" class="group-link">
+          <img src="images/icon-twitter.svg" alt="twitter-icon" class="group-link-img">
+        </a>
+      </li>
+      <li class="group-item">
+        <a href="#" class="group-link">
+          <img src="images/icon-pinterest.svg" alt="pinterest-icon" class="group-link-img">
+        </a>
+      </li>
+    </ul>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Iffie Ovie</a>.
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
