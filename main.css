@@ -491,15 +491,16 @@ footer{
     gap: 30px;
 }
 
-#link-group{
-    justify-content: center;
-    gap: 30px;
-}
-
 .group-link{
     text-decoration: none;
     font-family: Barlow;
     color: inherit;
+    margin: 0 10px;
+}
+
+#link-group{
+    justify-content: center;
+    gap: 30px;
     margin: 0 10px;
 }
 
